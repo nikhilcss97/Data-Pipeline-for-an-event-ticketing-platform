@@ -1,0 +1,22 @@
+CREATE OR REPLACE TRANSIENT TABLE EVENT_TICKETING_DB.ANALYTICAL.SALES (
+    transaction_id int,
+    event_name varchar,
+    event_type varchar(50),
+    number_of_purchased_tickets int,
+    total_amount float,
+    transaction_date date,
+    ticket_sold_by varchar(20),
+    organizer_id int,
+    reseller_id int,
+    organizer_name varchar(256),
+    organizer_location varchar,
+    reseller_name varchar(256),
+    reseller_location varchar,
+    commission_rate float,
+    total_commission float,
+    customer_first_name varchar(256),
+    customer_last_name varchar(256),
+    sales_channel varchar(20),
+    S3_SOURCE_FILE_NAME varchar(200),
+    CDC_TIMESTAMP timestamp_ntz
+);
