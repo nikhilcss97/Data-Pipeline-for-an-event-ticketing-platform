@@ -1,1 +1,1 @@
-# Data-Pipeline-for-an-event-ticketing-platform
+# Data Pipeline for an event ticketing platform
